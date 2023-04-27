@@ -1,0 +1,170 @@
+.logoadr {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bgprincipal {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: linear-gradient(to left, grey, white);
+  color: black;
+}
+
+li:hover {
+  font-size: 20px;
+  background-color: rgb(113, 113, 113);
+  border-radius: 20px;
+}
+
+.bienve {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+
+.adr {
+  font-family: "Poppins", sans-serif;
+}
+
+.maincolor {
+  background-color: rgb(187, 186, 186);
+}
+
+.translate {
+  transition: all 1s;
+}
+
+.translate:hover {
+  transform: translateY(-10px);
+}
+
+.imgfooter {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.colorfooter {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: brown;
+}
+
+footer {
+  background-image: linear-gradient(to top, grey, white);
+}
+
+.ig {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.scale {
+  transition: all 1s;
+}
+.scale:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.contacto {
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.maincolor {
+  background-color: rgb(187, 186, 186);
+}
+
+.nosotros1 {
+  width: 100%;
+  height: 400px;
+}
+
+.sizenos {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.maincolor {
+  background-color: rgb(187, 186, 186);
+}
+
+.pnos {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.imgtexto1 {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.serv {
+  color: rgb(9, 9, 67);
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+}
+
+.textoserv {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.servicio {
+  color: rgb(9, 9, 67);
+  font-family: cursive;
+  text-align: center;
+}
+
+.textorestau {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  color: black;
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .logoadr {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .imginicio {
+    object-fit: cover;
+  }
+  .imgsati {
+    height: 300px;
+  }
+  .imgrestau {
+    height: 300px;
+  }
+}
+@media (min-width: 1024px) {
+  .imginicio {
+    max-width: 100%;
+    height: 900px;
+    border-radius: 10px;
+  }
+  .bienve {
+    font-size: 50px;
+  }
+}
+.imgsati {
+  width: 100%;
+  max-height: 700px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.imgrestau {
+  width: 100%;
+  max-height: 900px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
