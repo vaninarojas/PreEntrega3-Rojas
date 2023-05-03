@@ -11,8 +11,8 @@
   color: black;
 }
 
-li:hover {
-  font-size: 30px;
+.nav-item:hover {
+  font-size: 27px;
   background-color: rgb(113, 113, 113);
   border-radius: 20px;
 }
@@ -168,7 +168,7 @@ footer {
 }
 
 .nav-item {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
