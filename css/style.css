@@ -143,6 +143,9 @@ footer {
   .imgrestau {
     height: 300px;
   }
+  .nav-item {
+    font-size: 20px;
+  }
 }
 @media (min-width: 1024px) {
   .imginicio {
